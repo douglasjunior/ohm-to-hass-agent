@@ -1,9 +1,3 @@
-﻿$sensorType = "Temperature"
-$sensorName = "GPU Core"
+﻿. "$PSScriptRoot\read-sensor.ps1"
 
-$sensorData = Get-WmiObject `
-    -Namespace "root\OpenHardwareMonitor" `
-    -Query "SELECT * FROM Sensor WHERE SensorType='$sensorType' AND Name='$sensorName'" `
-    | Select-Object -first 1
-
-return $sensorData.Value
+return Read-Sensor "Temperature" "GPU Core"

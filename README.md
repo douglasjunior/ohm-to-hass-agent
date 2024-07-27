@@ -15,9 +15,9 @@ Here you will found my Power Shell scripts to read sensors from [Open Hardware M
 
 1. Copy or create the `.ps1` script as you want. 
 
-    > Unfortunately `HASS.Agent` don't support include scripts to reuse code. 
-    > 
-    > So to create a new script, copy and past an existing one and change the `$sensorType` and `$sensorName` variables.
+    - Import the `read-sensor.ps1` script:
+    - Call the `Read-Sensor` function setting the `SensorType` and `Name` respectively.
+
 
 1. Test your script pasting the `path` to the `.ps1` file on the PowerShell terminal, ex:
 
