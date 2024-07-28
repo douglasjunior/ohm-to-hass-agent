@@ -6,8 +6,12 @@ Here you will found my Power Shell scripts to read sensors from [Open Hardware M
 
 - [CPU Temperature](./cpu-temperature.ps1)
 - [CPU Frequency](./cpu-frequency.ps1)
+- [CPU Load](./cpu-load.ps1)
+- [Memory Usage](./memory-usage.ps1)
 - [GPU Temperature](./gpu-temperature.ps1)
 - [GPU Frequency](./gpu-frequency.ps1)
+- [GPU Load](./gpu-load.ps1)
+- [GPU VRAM Usage](./gpu-vram-usage.ps1)
 
 ## Usage
 
