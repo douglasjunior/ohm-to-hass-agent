@@ -17,11 +17,12 @@ PowerShell scripts to read sensors from [Open Hardware Monitor](https://openhard
 
 1. Open `Open Hardware Monitor` and keep it running on background (you might want to configure it to startup with Windows too).
 
-1. Copy or create the `.ps1` script as you want. 
+1. Copy or create the `.ps1` script as you want.
+
+    In the script content you need to:
 
     - Import the `read-sensor.ps1` script:
     - Call the `Read-Sensor` function setting the `SensorType` and `Name` respectively.
-
 
 1. Test your script pasting the `path` to the `.ps1` file on the PowerShell terminal, ex:
 
