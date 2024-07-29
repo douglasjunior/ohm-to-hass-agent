@@ -1,6 +1,6 @@
 # Read sensors from Open Hardware Monitor
 
-Here you will found my Power Shell scripts to read sensors from [Open Hardware Monitor](https://openhardwaremonitor.org/) with [HASS.Agent](https://lab02-research.org/hassagent/).
+PowerShell scripts to read sensors from [Open Hardware Monitor](https://openhardwaremonitor.org/) and return to [HASS.Agent](https://lab02-research.org/hassagent/).
 
 ## Scripts
 
